@@ -1,88 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href="style.css" rel="stylesheet" type="text/css">
 		<meta charset="utf-8">
-		<title></title>
-		<style>
-			#t1{background-color: greenyellow; color: white;}
-			#d1{background-color: #F0FFFF;}
-			
-		</style>
 	</head>
 	<body>
-		<h1 align="center">校招信息共享表</h1>
-		<p>秋招必胜！！！！！！！！！！！！</p>
-		<table  cellspacing="" cellpadding="20">
-			<tr align="center" id="t1">
-				<th width="5%" >序号</th>
-				<th width="15%">企业名称</th>
-				<th width="10%">行业</th>
-				<th>网申地址</th>
-				<th width="10%">招聘有效期</th>
-				<th>校园宣讲会</th>
-				<th>宣讲会时间</th>
-				<th width="30%">宣讲会地址</th>
-				<th>是否现场收简历</th>
+		<form action="./phpfiles/login.php" method="post">
+			<table border="0" cellspacing="" cellpadding="">
+			<tr>
+				<th>请输入阿丹第一次CET4的考试成绩:</th>
+				<td><input type="text" name="grade" id="grade" autocomplete="off"></td>
+				<td><input type="submit" value="确认!"></td>
 			</tr>
+			</table>
 			
-			<tr align="center" id="d1">
-				<td>1</td>
-				<td>XX有限公司</td>
-				<td>人工智能</td>
-				<td>xxxxxxx</td>
-				<td>08/20-10/12</td>
-				<td>有宣讲</td>
-				<td>2019/9/10 19:00</td>
-				<td>西北农林科技大学北校区</td>
-				<td>是</td>
-			</tr>
-			
-			<tr align="center">
-				<td>2</td>
-				<td>XX有限公司</td>
-				<td>移动互联网</td>
-				<td>xxxxxxx</td>
-				<td>08/26-10/30</td>
-				<td>有宣讲</td>
-				<td>2018/9/10 19:00</td>
-				<td>西农南校区</td>
-				<td>是</td>
-			</tr>
-			
-			<tr align="center" id="d1">
-				<td>3</td>
-				<td>XX有限公司</td>
-				<td>人工智能</td>
-				<td>xxxxxxx</td>
-				<td>08/02-10/12</td>
-				<td>有宣讲</td>
-				<td>2019/9/10 19:00</td>
-				<td>待定~</td>
-				<td>是</td>
-			</tr>
-			<tr id="">
-				<td>4</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr id="d1">
-				<td>5</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			
-		</table>
+		</form>
 	</body>
 </html>
